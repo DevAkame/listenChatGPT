@@ -10,6 +10,11 @@
       "StackName": "amplify-listenchatgpt-dev-130730",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:391872069948:stack/amplify-listenchatgpt-dev-130730/b1de4620-6ca2-11ee-bb30-0665c5d1f92d",
       "AmplifyAppId": "d3ledztb0izaq0"
+    },
+    "categories": {
+      "auth": {
+        "listenChatGPT": {}
+      }
     }
   }
 }
