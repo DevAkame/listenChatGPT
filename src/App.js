@@ -4,7 +4,7 @@ import { Amplify } from 'aws-amplify';
 import awsExports from './aws-exports';
 import { Flex, withAuthenticator } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
-import { Card } from '@aws-amplify/ui-react';
+import { Heads, Card } from './ui-components';
 
 
 Amplify.configure(awsExports);
@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <Flex direction={"column"} alignItems={"center"}>
         <Flex direction={"column"}>
-          <Card />
+          <Heads />
           
         </Flex>
       </Flex>
