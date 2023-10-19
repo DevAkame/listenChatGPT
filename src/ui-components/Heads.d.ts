@@ -21,6 +21,8 @@ export declare type HeadsOverridesProps = {
     Akame?: PrimitiveOverrideProps<TextProps>;
 } & EscapeHatchProps;
 export declare type HeadsProps = React.PropsWithChildren<Partial<ViewProps> & {
+    heads?: React.ReactNode;
+} & {
     overrides?: HeadsOverridesProps | undefined | null;
 }>;
 export default function Heads(props: HeadsProps): React.ReactElement;
