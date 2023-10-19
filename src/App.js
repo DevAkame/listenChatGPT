@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <Flex direction={"column"} alignItems={"center"}>
         <Flex direction={"column"}>
-          <Card />
+          <Heads />
           
         </Flex>
       </Flex>
